@@ -1,21 +1,80 @@
+@font-face {
+  font-family: 'Jenthill';
+  src: url('Jenthill.ttf.woff');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 body {
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  color: #333;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 10em;
+  margin: 0;
+  font-family: 'Jenthill', sans-serif;
+}
+
+h2 {
+  font-size: 5em;
+  margin-bottom: 0;
+  font-family: 'Jenthill', sans-serif;
+}
+
+h3 {
+  font-size: 2em;
+  margin-bottom: 0;
+  font-family: 'Jenthill', sans-serif;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 section {
-  min-height: 100vh;
+  text-align: center;
+  padding: 20px 10vw;
 }
 
-.intro {
-  background-color: lightcyan;
+.the-day > div {
+  margin-top: 10vh;
 }
 
-.the-day {
-  background-color: lightskyblue;
+.the-day > div:nth-child(even) {
+  padding-right: 50%;
 }
 
-.rsvp {
-  background-color: salmon;
+.the-day > div:nth-child(odd) {
+  padding-left: 50%;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 4em;
+  }
+  h2 {
+    font-size: 4em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  h4 {
+    font-size: 0.8em;
+  }
+  .the-day > div {
+    margin-top: 1vh;
+  }
+  .the-day > div:nth-child(even) {
+    padding-right: 0;
+  }
+  .the-day > div:nth-child(odd) {
+    padding-left: 0;
+  }
 }
