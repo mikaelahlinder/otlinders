@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from './Image'
-import Icon from './Icon'
 import intro from './img/intro.jpg'
 import landscape from './img/landscape.png'
 
