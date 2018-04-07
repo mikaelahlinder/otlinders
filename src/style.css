@@ -11,6 +11,19 @@ body {
   font-size: 24px;
 }
 
+p {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-weight: 100;
+}
+
+a,
+a:hover,
+a:visited {
+  font-weight: bold;
+  color: #fa05dc;
+  text-decoration: none;
+}
+
 h1 {
   font-size: 10em;
   margin: 0;
@@ -18,7 +31,8 @@ h1 {
 }
 
 h2 {
-  font-size: 5em;
+  font-size: 6em;
+  line-height: 1em;
   margin-bottom: 0;
   font-family: 'Jenthill', sans-serif;
 }
@@ -37,11 +51,13 @@ h4 {
 
 section {
   text-align: center;
+  position: relative;
   padding: 20px 10vw;
 }
 
 .the-day > div {
   margin-top: 10vh;
+  position: relative;
 }
 
 .the-day > div:nth-child(even) {
@@ -76,5 +92,22 @@ section {
   }
   .the-day > div:nth-child(odd) {
     padding-left: 0;
+  }
+}
+
+.float {
+  transform: translatey(0px);
+  animation: float 6s alternate infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
   }
 }
