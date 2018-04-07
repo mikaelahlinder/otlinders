@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.intro {
+  background-color: lightcyan;
+}
+
+.the-day {
+  background-color: lightskyblue;
+}
+
+.rsvp {
+  background-color: salmon;
+}
