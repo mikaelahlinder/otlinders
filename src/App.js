@@ -57,14 +57,14 @@ export default class App extends React.Component {
           <div>
             <h3>Kauri Bay Boomrock</h3>
             <p>
-              This is a beautiful venue perched on a hillside half an hour south
-              of Auckland overlooking the Hauraki Gulf.
+              A beautiful venue overlooking the Hauraki Gulf perched on a
+              hillside half an hour south of Auckland.
             </p>
           </div>
 
           <div>
             <h3>Dresscode</h3>
-            <p>A bit dressy</p>
+            <p>A bit dressy.</p>
           </div>
 
           <div>
@@ -72,9 +72,16 @@ export default class App extends React.Component {
             <Image src="flower1.png" style={{ height: '4em' }} />
             <p>
               Please bring one or a few flowers to the ceremony. Choose
-              something meaningful or simply what you like the look of. These
-              will be brought together into a bouquet next to which we will have
-              the ceremony.
+              something meaningful or simply what you like the look of. You are
+              helping us create our ceremony centrepiece.
+            </p>
+          </div>
+
+          <div>
+            <h3>Key times</h3>
+            <p>
+              The ceremony starts at 3.30pm!<br /> The dancing finishes at
+              midnight.
             </p>
           </div>
 
@@ -82,24 +89,9 @@ export default class App extends React.Component {
             <h3>Gifts</h3>
             <p>
               We are blessed with not needing much and Sarah collects too much
-              stuff as it is! But we have two minimal gift registries at{' '}
-              <a
-                target="_blank"
-                href="http://www.cervera.se"
-                rel="noopener noreferrer"
-              >
-                Cervera
-              </a>{' '}
-              and{' '}
-              <a
-                target="_blank"
-                href="http://www.royaldesign.se"
-                rel="noopener noreferrer"
-              >
-                Royal Design
-              </a>{' '}
-              for items we need. Otherwise please give the gift of your presence
-              and write us a nice card.
+              stuff as it is! But we will have a minimal registrty set up later
+              in the year for items we need. Otherwise please give the gift of
+              your presence and write us a nice card.
             </p>
           </div>
 
@@ -133,7 +125,7 @@ export default class App extends React.Component {
             <Image src="deer.png" style={{ height: '30vh' }} />
             <p>
               We love your children! But for this event, we have chosen to limit
-              the number of little people to the bridal party and those
+              the number of little people to just the bridal party and those
               travelling from abroad.
             </p>
           </div>
@@ -149,7 +141,7 @@ export default class App extends React.Component {
             }}
           />
           <p>
-            By October 25th 2018<br />
+            By November 1st<br />
             Please email{' '}
             <a href="mailto:rsvp@otlinders.com">rsvp@otlinders.com</a> with your
             rsvp and<br /> include any food requests and if you have special
@@ -254,6 +246,9 @@ export default class App extends React.Component {
 
         <section>
           <Image src="birds.png" style={{ width: '80%' }} />
+          <h4 style={{ marginTop: '50px' }}>
+            Please check here for final details in December
+          </h4>
           <h2>See you there </h2>
         </section>
       </div>

@@ -3,7 +3,12 @@
   src: url('Jenthill.ttf.woff');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@font-face {
+  font-family: 'Futura';
+  src: url('Futura-Bold.woff');
+  font-weight: normal;
+}
+
 body {
   margin: 0 0 10vh 0;
   padding: 0;
@@ -12,7 +17,7 @@ body {
 }
 
 p {
-  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: 'Futura', Arial, sans-serif;
   font-weight: 100;
 }
 
@@ -46,7 +51,7 @@ h3 {
 h4 {
   font-size: 1em;
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Futura', sans-serif;
 }
 
 section {
@@ -55,16 +60,16 @@ section {
   padding: 20px 10vw;
 }
 
-.the-day > div {
+.the-day>div {
   margin-top: 10vh;
   position: relative;
 }
 
-.the-day > div:nth-child(even) {
+.the-day>div:nth-child(even) {
   padding-right: 50%;
 }
 
-.the-day > div:nth-child(odd) {
+.the-day>div:nth-child(odd) {
   padding-left: 50%;
 }
 
@@ -78,36 +83,16 @@ section {
   h2 {
     font-size: 4em;
   }
-  h3 {
-    font-size: 2em;
-  }
   h4 {
     font-size: 0.8em;
   }
-  .the-day > div {
+  .the-day>div {
     margin-top: 1vh;
   }
-  .the-day > div:nth-child(even) {
+  .the-day>div:nth-child(even) {
     padding-right: 0;
   }
-  .the-day > div:nth-child(odd) {
+  .the-day>div:nth-child(odd) {
     padding-left: 0;
-  }
-}
-
-.float {
-  transform: translatey(0px);
-  animation: float 6s alternate infinite;
-}
-
-@keyframes float {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-20px);
-  }
-  100% {
-    transform: translatey(0px);
   }
 }
