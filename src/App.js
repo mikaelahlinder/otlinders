@@ -64,7 +64,6 @@ export default class App extends React.Component {
 
           <div>
             <h3>Dresscode</h3>
-            <Image src="birds.png" style={{ height: '6em' }} />
             <p>A bit dressy</p>
           </div>
 
@@ -185,13 +184,7 @@ export default class App extends React.Component {
           <h2>
             Bra att veta om<br /> Nya Zeeland
           </h2>
-          <Image
-            src="kiwi2.png"
-            style={{
-              width: '30vw',
-              marginBottom: '-10vh'
-            }}
-          />
+          <Image src="kiwi2.png" style={{ height: '20vh' }} />
           <p>
             <strong>THE SUN</strong>
             <br />
@@ -260,13 +253,7 @@ export default class App extends React.Component {
         </section>
 
         <section>
-          <Image
-            src="dots.png"
-            style={{
-              height: '30vh',
-              marginBottom: '-10vh'
-            }}
-          />
+          <Image src="birds.png" style={{ width: '80%' }} />
           <h2>See you there </h2>
         </section>
       </div>
