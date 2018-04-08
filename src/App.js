@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from './Image'
 import intro from './img/intro.jpg'
+import red from './img/red.png'
+import pink from './img/pink.png'
 import landscape from './img/landscape.png'
 
 export default class App extends React.Component {
@@ -64,7 +66,13 @@ export default class App extends React.Component {
 
           <div>
             <h3>Dresscode</h3>
-            <p>A bit dressy.</p>
+            <p>
+              A bit dressy
+              <Image
+                src="female.png"
+                style={{ height: '2em', margin: '0 0 -5px 5px' }}
+              />
+            </p>
           </div>
 
           <div>
@@ -78,10 +86,10 @@ export default class App extends React.Component {
           </div>
 
           <div>
-            <h3>Key times</h3>
+            <h3>Key Times</h3>
             <p>
-              The ceremony starts at 3.30pm!<br /> The dancing finishes at
-              midnight.
+              The ceremony starts at 3.30pm! &<br /> the dancing finishes at
+              midnight!
             </p>
           </div>
 
@@ -95,11 +103,23 @@ export default class App extends React.Component {
             </p>
           </div>
 
-          <div>
+          <div
+            style={{
+              background: `url(${pink}) no-repeat center center`,
+              backgroundSize: 'contain'
+            }}
+          >
             <h3>Transport</h3>
             <p>
-              Buses will depart Auckland CBD at 2:00 pm and<br />
-              make one stop at Green Lane.
+              The car parking at Boomrock is limited to suppliers and staff.{' '}
+              Please do not drive to the venue. Instead, please taxi or drive to
+              one of the bus pick up points.
+              <br /> <br />Two buses will leave 54 Hobson St, Auckland Central
+              at 2pm. They then stop at Foodtown Greenlane (more specific
+              location tbc). Returning busses to Greenlane and Hobson St will
+              depart the venue at 10pm and midnight. Due to it’s remote
+              location, any taxis must be prebooked. <br /> <br />Please include
+              any special travel requirements in your R.S.V.P.
               <br />
             </p>
           </div>
@@ -136,7 +156,7 @@ export default class App extends React.Component {
           <Image
             src="dotsred.png"
             style={{
-              height: '20vh',
+              height: '15vh',
               marginBottom: '-5vh'
             }}
           />
@@ -246,7 +266,14 @@ export default class App extends React.Component {
 
         <section>
           <Image src="birds.png" style={{ width: '80%' }} />
-          <h4 style={{ marginTop: '50px' }}>
+          <h4
+            style={{
+              marginTop: '50px',
+              padding: '50px',
+              background: `url(${red}) no-repeat center center`,
+              backgroundSize: 'contain'
+            }}
+          >
             Please check here for final details in December
           </h4>
           <h2>See you there </h2>
