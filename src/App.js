@@ -152,20 +152,33 @@ export default class App extends React.Component {
         </section>
 
         <section>
-          <h2>RSVP</h2>
-          <Image
-            src="dotsred.png"
-            style={{
-              height: '15vh',
-              marginBottom: '-5vh'
-            }}
-          />
+          <h2>
+            R<span
+              style={{ fontFamily: 'Futura', color: 'red', fontSize: '1em' }}
+            >
+              .
+            </span>S
+            <span
+              style={{ fontFamily: 'Futura', color: 'red', fontSize: '1em' }}
+            >
+              .
+            </span>V
+            <span
+              style={{ fontFamily: 'Futura', color: 'red', fontSize: '1em' }}
+            >
+              .
+            </span>P
+            <span
+              style={{ fontFamily: 'Futura', color: 'red', fontSize: '1em' }}
+            >
+              .
+            </span>
+          </h2>
+
           <p>
-            By November 1st<br />
-            Please email{' '}
-            <a href="mailto:rsvp@otlinders.com">rsvp@otlinders.com</a> with your
-            rsvp and<br /> include any food requests and if you have special
-            transport needs.
+            By November 1st to{' '}
+            <a href="mailto:rsvp@otlinders.com">rsvp@otlinders.com</a>
+            <br /> including any food and transport needs.
           </p>
         </section>
 
@@ -186,7 +199,7 @@ export default class App extends React.Component {
             >
               Mission Bay Pavillion
             </a>{' '}
-            <br /> drop in between 12:00pm & 4:00pm and enjoy brunch by the
+            <br /> Drop in between 12:00pm & 4:00pm and enjoy brunch by the
             beach.<br /> We've reserved some tables.<br /> Bring your wallet and
             togs/badbyxor to this one :)
           </p>
@@ -277,6 +290,13 @@ export default class App extends React.Component {
             Please check here for final details in December
           </h4>
           <h2>See you there </h2>
+          <Image
+            src="heart.png"
+            style={{
+              marginTop: '100px',
+              height: '20px'
+            }}
+          />
         </section>
       </div>
     )
