@@ -59,8 +59,8 @@ export default class App extends React.Component {
           <div>
             <h3>Kauri Bay Boomrock</h3>
             <p>
-              A beautiful venue overlooking the Hauraki Gulf perched on a
-              hillside half an hour south of Auckland.
+              A beautiful rural venue perched on a hillside half an hour south
+              of Auckland.
             </p>
           </div>
 
@@ -88,7 +88,7 @@ export default class App extends React.Component {
           <div>
             <h3>Key Times</h3>
             <p>
-              The ceremony starts at 3.30pm! &<br /> the dancing finishes at
+              The ceremony starts at 3.30pm &<br /> the dancing finishes at
               midnight!
             </p>
           </div>
