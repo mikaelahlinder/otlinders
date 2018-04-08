@@ -34,8 +34,8 @@ export default class App extends React.Component {
         </section>
 
         <section>
-          <h2>Sarah and Micke</h2>
-          <Image src="ms.jpg" style={{ height: '30vh' }} />
+          <h2>Micke and Sarah</h2>
+          <Image src="kiwiandkorv.png" style={{ height: '4em' }} />
           <p>
             We can’t wait to celebrate our marriage with you!<br />
             Guaranteed yummy food, booze and bad dance moves :)<br />
@@ -43,7 +43,7 @@ export default class App extends React.Component {
             xx<br />
             the kiwi & the korv
           </p>
-          <Image src="kiwiandkorv.png" style={{ height: '4em' }} />
+          <Image src="ms.jpg" style={{ height: '30vh' }} />
         </section>
 
         <section
@@ -58,17 +58,19 @@ export default class App extends React.Component {
             <h3>Kauri Bay Boomrock</h3>
             <p>
               This is a beautiful venue perched on a hillside half an hour south
-              of Auckland.
+              of Auckland overlooking the Hauraki Gulf.
             </p>
           </div>
 
           <div>
             <h3>Dresscode</h3>
+            <Image src="birds.png" style={{ height: '6em' }} />
             <p>A bit dressy</p>
           </div>
 
           <div>
             <h3>Flowers</h3>
+            <Image src="flower1.png" style={{ height: '4em' }} />
             <p>
               Please bring one or a few flowers to the ceremony. Choose
               something meaningful or simply what you like the look of. These
@@ -105,16 +107,14 @@ export default class App extends React.Component {
           <div>
             <h3>Transport</h3>
             <p>
-              Buses will depart central Auckland at 2:00 pm and<br />
-              stop at Green Lane to pick up more peeps.
+              Buses will depart Auckland CBD at 2:00 pm and<br />
+              make one stop at Green Lane.
               <br />
             </p>
           </div>
 
           <div>
-            <Image src="flower2.png" style={{ height: '8em' }} />
             <h3>Photos</h3>
-            <Image src="flower1.png" style={{ height: '8em' }} />
             <p>
               Our ceremony will be unplugged, only designated photographers will
               have devices in hand :) Throughout the rest of the day, use{' '}
@@ -139,14 +139,14 @@ export default class App extends React.Component {
             </p>
           </div>
         </section>
+
         <section>
           <h2>RSVP</h2>
           <Image
-            src="korv.png"
+            src="dotsred.png"
             style={{
-              transform: 'rotate(-25deg)',
-              marginTop: '2vh',
-              height: '5vw'
+              height: '20vh',
+              marginBottom: '-5vh'
             }}
           />
           <p>
@@ -159,13 +159,36 @@ export default class App extends React.Component {
         </section>
 
         <section>
+          <h2>The day after</h2>
+          <Image
+            src="egg.png"
+            style={{
+              marginBottom: '-2em',
+              height: '20vh'
+            }}
+          />
+          <p>
+            <a
+              href="https://www.google.com/maps/place/44+Mission+Bay+Pavilion/@-36.8473136,174.7946299,13z/data=!4m5!3m4!1s0x6d0d49dbe101286b:0xe8ae375eeb3c5e6!8m2!3d-36.8473136!4d174.8296488"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mission Bay Pavillion
+            </a>{' '}
+            <br /> drop in between 12:00pm & 4:00pm and enjoy brunch by the
+            beach.<br /> We've reserved some tables.<br /> Bring your wallet and
+            togs/badbyxor to this one :)
+          </p>
+        </section>
+
+        <section>
           <h2>
             Bra att veta om<br /> Nya Zeeland
           </h2>
           <Image
-            src="kiwihill.png"
+            src="kiwi2.png"
             style={{
-              height: '50vh',
+              width: '30vw',
               marginBottom: '-10vh'
             }}
           />
@@ -211,11 +234,6 @@ export default class App extends React.Component {
           <h2>Good to know about Sweden</h2>
           <Image src="moose.png" style={{ height: '30vh' }} />
           <p>
-            <strong>POPULATION</strong>
-            <br />
-            10 million
-            <br />
-            <br />
             <strong>MIDNIGHT SUN</strong>
             <br />
             56 days
@@ -226,17 +244,9 @@ export default class App extends React.Component {
             400 000
             <br />
             <br />
-            <strong>LAKES</strong>
-            <br />
-            95 700
-            <br />
-            <br />
-            <strong>RECORD TEMPERATURE</strong>
-            <br />
-            38°C<br /> -53°C
-            <br />
-            <br />
-            <strong>IKEA MEATBALLS EATEN EVERY DAY</strong>
+            <strong>
+              IKEA MEATBALLS EATEN EVERY DAY<br /> AROUND THE WORLD
+            </strong>
             <br />
             2 million
             <br />
@@ -249,36 +259,16 @@ export default class App extends React.Component {
           </p>
         </section>
 
-        {/* <Image src="birds.png" style={{ width: '100%' }} /> */}
-
-        {/* <Icon icon="heart" />
-        <Icon icon="hand-holding-heart" />
-        <Icon icon="glass-martini" />
-        <Icon icon="beer" />
-        <Icon icon="wine-glass" />
-        <Icon icon="plane" />
-                 <Icon icon="female" />
-            <Icon icon="male" />
-        <Icon icon="paper-plane" />
-            <Icon icon="gift" />
-        
-        <Icon icon="pagelines" />
-        <Icon icon="bell" />
-        <Icon icon="angellist" />
-        <Icon icon="bed" />
-        <Icon icon="female" />
-        <Icon icon="male" />
-        <Icon icon="image" />
-        <Icon icon="exclamation" />
-            <Icon icon="bus" />
-        
-        <Icon icon="paper-plane" />
-
-        <Icon icon="tree" />
-        <Icon icon="umbrella" />
-        <Icon icon="utensils" />
-        <Icon icon="hashtag" />
-        <Icon icon="smile" prefix="far" /> */}
+        <section>
+          <Image
+            src="dots.png"
+            style={{
+              height: '30vh',
+              marginBottom: '-10vh'
+            }}
+          />
+          <h2>See you there </h2>
+        </section>
       </div>
     )
   }
