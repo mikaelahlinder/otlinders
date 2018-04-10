@@ -1,9 +1,13 @@
 import React from 'react'
-import Image from './Image'
 import intro from './img/intro.jpg'
 import red from './img/red.png'
 import pink from './img/pink.png'
 import landscape from './img/landscape.png'
+
+const Image = ({ src, ...rest }) => {
+  const _src = require(`./img/${src}`)
+  return <img src={_src} {...rest} alt="" />
+}
 
 export default class App extends React.Component {
   render() {
