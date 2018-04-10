@@ -1,12 +1,18 @@
 @font-face {
   font-family: 'Jenthill';
-  src: url('Jenthill.ttf.woff');
+  src: url('./fonts/Jenthill.ttf.woff');
 }
 
 @font-face {
   font-family: 'Futura';
-  src: url('Futura-Bold.woff');
+  src: url('./fonts/Futura-Medium.woff');
   font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url('./fonts/Futura-Bold.woff');
+  font-weight: bold;
 }
 
 body {
