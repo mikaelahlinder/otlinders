@@ -66,16 +66,16 @@ section {
   padding: 20px 10vw;
 }
 
-.the-day>div {
+.the-day > div {
   margin-top: 10vh;
   position: relative;
 }
 
-.the-day>div:nth-child(even) {
+.the-day > div:nth-child(even) {
   padding-right: 50%;
 }
 
-.the-day>div:nth-child(odd) {
+.the-day > div:nth-child(odd) {
   padding-left: 50%;
 }
 
@@ -92,13 +92,13 @@ section {
   h4 {
     font-size: 0.8em;
   }
-  .the-day>div {
+  .the-day > div {
     margin-top: 1vh;
   }
-  .the-day>div:nth-child(even) {
+  .the-day > div:nth-child(even) {
     padding-right: 0;
   }
-  .the-day>div:nth-child(odd) {
+  .the-day > div:nth-child(odd) {
     padding-left: 0;
   }
 }

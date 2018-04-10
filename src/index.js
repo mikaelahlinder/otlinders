@@ -4,7 +4,7 @@ import intro from './img/intro.jpg'
 import red from './img/red.png'
 import pink from './img/pink.png'
 import landscape from './img/landscape.png'
-import './style.css'
+import './index.css'
 
 const Image = ({ src, ...rest }) => (
   <img src={require(`./img/${src}`)} {...rest} alt="" />
