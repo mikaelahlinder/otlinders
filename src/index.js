@@ -65,8 +65,8 @@ const App = () => (
       <div>
         <h3>Kauri Bay Boomrock</h3>
         <p>
-          A beautiful rural venue perched on a hillside. Half an hour south of
-          Auckland.
+          A beautiful rural venue perched on a hillside. <br />Half an hour
+          south of Auckland.
         </p>
       </div>
 
