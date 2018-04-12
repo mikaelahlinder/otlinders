@@ -2,8 +2,8 @@ import React from 'react'
 import { render } from 'react-snapshot'
 import intro from './img/intro.jpg'
 import red from './img/red.png'
-import pink from './img/pink.png'
 import landscape from './img/landscape.png'
+import floating from './img/floating.png'
 import './index.css'
 
 const Image = ({ src, ...rest }) => (
@@ -83,7 +83,7 @@ const App = () => (
 
       <div>
         <h3>Flowers</h3>
-        <Image src="flower1.png" style={{ height: '4em' }} />
+        <Image src="flowers.png" style={{ height: '4em' }} />
         <p>
           Please bring one or a few flowers to the ceremony. Choose something
           meaningful or simply what you like the look of. You are helping us to
@@ -99,6 +99,41 @@ const App = () => (
         </p>
       </div>
 
+      <div
+        style={{
+          background: `url(${floating}) no-repeat top center`,
+          backgroundSize: 'contain'
+        }}
+      >
+        <h3>Transport</h3>
+        <p>
+          The car parking at Boomrock is limited to suppliers and staff. Please
+          do not drive to the venue. Instead, please taxi or drive to one of the
+          bus pick up points.
+          <br /> <br />Two buses will leave{' '}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.google.com/maps/place/54+Hobson+St,+Auckland,+1010,+Nya+Zeeland/@-36.846926,174.7449157,14z/data=!4m5!3m4!1s0x6d0d47f08705f039:0xd3689b7d298dc9b4!8m2!3d-36.8469303!4d174.7624252"
+          >
+            54 Hobson St
+          </a>, Auckland Central at 2pm. They then stop at{' '}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.google.com/maps/place/127+Urban+Route+9,+Greenlane,+Auckland+1051,+Nya+Zeeland/@-36.8894448,174.7610509,13z/data=!4m5!3m4!1s0x6d0d48f37ac0a6b5:0xdf09f403cbd3ba3!8m2!3d-36.8894491!4d174.7960698"
+          >
+            Greenlane
+          </a>{' '}
+          (more specific location tbc). Returning busses to Greenlane and Hobson
+          St will depart the venue at 10pm and midnight. Due to it’s remote
+          location, any taxis must be prebooked. <br /> <br />Please include any
+          special travel requirements in your R.S.V.P and we can make the best
+          plan together.
+          <br />
+        </p>
+      </div>
+
       <div>
         <h3>Gifts</h3>
         <p>
@@ -109,29 +144,12 @@ const App = () => (
         </p>
       </div>
 
-      <div
-        style={{
-          background: `url(${pink}) no-repeat center center`,
-          backgroundSize: 'contain'
-        }}
-      >
-        <h3>Transport</h3>
-        <p>
-          The car parking at Boomrock is limited to suppliers and staff. Please
-          do not drive to the venue. Instead, please taxi or drive to one of the
-          bus pick up points.
-          <br /> <br />Two buses will leave 54 Hobson St, Auckland Central at
-          2pm. They then stop at Greenlane (more specific location tbc).
-          Returning busses to Greenlane and Hobson St will depart the venue at
-          10pm and midnight. Due to it’s remote location, any taxis must be
-          prebooked. <br /> <br />Please include any special travel requirements
-          in your R.S.V.P and we can make the best plan together.
-          <br />
-        </p>
-      </div>
-
       <div>
         <h3>Photos</h3>
+        <Image
+          src="eyes.png"
+          style={{ height: '2em', margin: '0 0 -5px 5px' }}
+        />
         <p>
           Our ceremony will be unplugged, only designated photographers will
           have devices in hand :) Throughout the rest of the day, use{' '}
@@ -268,7 +286,7 @@ const App = () => (
         2 million
         <br />
         <br />
-        ABBA, Volvo, Ikea, Spotify, Zlatan Ibrahimovich, Socialism:{' '}
+        ABBA, Volvo, Ikea, H&M, Spotify, Skype, Zlatan Ibrahimovic, Socialism:{' '}
         <strong>YES</strong>
         <br />
         Cheese with holes, chocolate, watch industry, really wealthy:{' '}
