@@ -39,7 +39,7 @@ const App = () => (
     </section>
 
     <section>
-      <h2>Micke and Sarah</h2>
+      <h2>Sarah and Micke</h2>
       <Image src="kiwiandkorv.png" style={{ height: '4em' }} />
       <p>
         We can’t wait to celebrate our marriage with you!<br />
@@ -48,7 +48,10 @@ const App = () => (
         xx<br />
         the kiwi & the korv
       </p>
-      <Image src="ms.jpg" style={{ height: '30vh' }} />
+      <Image
+        src="ms.jpg"
+        style={{ transform: 'rotateY(-180deg)', height: '30vh' }}
+      />
     </section>
 
     <section
@@ -62,7 +65,7 @@ const App = () => (
       <div>
         <h3>Kauri Bay Boomrock</h3>
         <p>
-          A beautiful rural venue perched on a hillside half an hour south of
+          A beautiful rural venue perched on a hillside. Half an hour south of
           Auckland.
         </p>
       </div>
@@ -72,7 +75,7 @@ const App = () => (
         <p>
           A bit dressy
           <Image
-            src="female.png"
+            src="highheel.png"
             style={{ height: '2em', margin: '0 0 -5px 5px' }}
           />
         </p>
@@ -83,7 +86,7 @@ const App = () => (
         <Image src="flower1.png" style={{ height: '4em' }} />
         <p>
           Please bring one or a few flowers to the ceremony. Choose something
-          meaningful or simply what you like the look of. You are helping us
+          meaningful or simply what you like the look of. You are helping us to
           create our ceremony centrepiece.
         </p>
       </div>
@@ -118,11 +121,11 @@ const App = () => (
           do not drive to the venue. Instead, please taxi or drive to one of the
           bus pick up points.
           <br /> <br />Two buses will leave 54 Hobson St, Auckland Central at
-          2pm. They then stop at Foodtown Greenlane (more specific location
-          tbc). Returning busses to Greenlane and Hobson St will depart the
-          venue at 10pm and midnight. Due to it’s remote location, any taxis
-          must be prebooked. <br /> <br />Please include any special travel
-          requirements in your R.S.V.P.
+          2pm. They then stop at Greenlane (more specific location tbc).
+          Returning busses to Greenlane and Hobson St will depart the venue at
+          10pm and midnight. Due to it’s remote location, any taxis must be
+          prebooked. <br /> <br />Please include any special travel requirements
+          in your R.S.V.P and we can make the best plan together.
           <br />
         </p>
       </div>
@@ -148,8 +151,8 @@ const App = () => (
         <Image src="deer.png" style={{ height: '30vh' }} />
         <p>
           We love your children! But for this event, we have chosen to limit the
-          number of little people to just the bridal party and those travelling
-          from abroad.
+          number of little people to just familiy and those travelling from
+          abroad.
         </p>
       </div>
     </section>
@@ -173,7 +176,7 @@ const App = () => (
       <p>
         By November 1st to{' '}
         <a href="mailto:rsvp@otlinders.com">rsvp@otlinders.com</a>
-        <br /> including any food and transport needs.
+        <br />Please including any food and transport needs.
       </p>
     </section>
 
@@ -206,6 +209,11 @@ const App = () => (
       </h2>
       <Image src="kiwi2.png" style={{ height: '20vh' }} />
       <p>
+        <strong>SHEEP</strong>
+        <br />
+        60 000 000
+        <br />
+        <br />
         <strong>THE SUN</strong>
         <br />
         Is intense. Wear sunblock!
@@ -234,9 +242,6 @@ const App = () => (
         <br />The affordable and readily available Asian food in central
         Auckland.
         <br />And don’t forget to pair some kiwi wines with your meal.
-        <br />
-        <br />Note there is no ready mixed baby formula here,<br /> it’s all
-        powdered so pack some Semper if you want to have an emergency supply.
         <br />
         <br />Smaklig måltid!
       </p>
