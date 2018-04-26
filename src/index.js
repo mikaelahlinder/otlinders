@@ -15,6 +15,7 @@ const App = () => (
     <section
       style={{
         background: `url(${intro}) no-repeat bottom center`,
+        backgroundSize: 'cover',        
         display: 'flex',
         alignItems: 'center',
         flexDirection: 'column',
