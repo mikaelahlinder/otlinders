@@ -15,7 +15,7 @@ const App = () => (
     <section
       style={{
         background: `url(${intro}) no-repeat bottom center`,
-        backgroundSize: 'cover',        
+        backgroundSize: 'cover',
         display: 'flex',
         alignItems: 'center',
         flexDirection: 'column',
@@ -66,8 +66,15 @@ const App = () => (
       <div>
         <h3>Kauri Bay Boomrock</h3>
         <p>
-          A beautiful rural venue perched on a hillside. <br />Half an hour
-          south of Auckland.
+          A beautiful{' '}
+          <a
+            href="https://www.kauribayboomrock.co.nz/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            venue
+          </a>{' '}
+          perched on a hillside. <br />Half an hour south of Auckland.
         </p>
       </div>
 
