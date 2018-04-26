@@ -177,7 +177,7 @@ const App = () => (
         <Image src="deer.png" style={{ height: '30vh' }} />
         <p>
           We love your children! But for this event, we have chosen to limit the
-          number of little people to just family and those travelling from
+          number of little people to just immediate family and those travelling from
           abroad.
         </p>
       </div>
