@@ -4,7 +4,6 @@ import intro from './img/intro.jpg'
 import red from './img/red.png'
 import landscape from './img/landscape.png'
 import floating from './img/floating.png'
-import './index.css'
 
 const Image = ({ src, ...rest }) => (
   <img src={require(`./img/${src}`)} {...rest} alt="" />
@@ -177,8 +176,8 @@ const App = () => (
         <Image src="deer.png" style={{ height: '30vh' }} />
         <p>
           We love your children! But for this event, we have chosen to limit the
-          number of little people to just immediate family and those travelling from
-          abroad.
+          number of little people to just immediate family and those travelling
+          from abroad.
         </p>
       </div>
     </section>
