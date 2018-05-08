@@ -145,9 +145,9 @@ const App = () => (
         <h3>Gifts</h3>
         <p>
           We are blessed with not needing much and Sarah collects too much stuff
-          as it is! But we will have a minimal registry set up later in the
-          year for items we need. Otherwise please give the gift of your
-          presence and write us a nice card.
+          as it is! But we will have a minimal registry set up later in the year
+          for items we need. Otherwise please give the gift of your presence and
+          write us a nice card.
         </p>
       </div>
 
@@ -201,7 +201,11 @@ const App = () => (
       <p>
         By November 1st to{' '}
         <a href="mailto:rsvp@otlinders.com">rsvp@otlinders.com</a>
-        <br />Please include any food and transport needs.
+        <br />We need four pieces of information from you.
+        <br />1. Are you coming?
+        <br />2. Which bus pickup point suits you?
+        <br />3. Do you have any special food requests?
+        <br />4. Do you want to go home around 10pm or midnight?
       </p>
     </section>
 
