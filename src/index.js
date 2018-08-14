@@ -32,7 +32,8 @@ const App = () => (
             }}
           >
             The
-          </span>Otlinders
+          </span>
+          Otlinders
         </h1>
         <Image src="date.png" style={{ maxHeight: '20vh' }} />
       </div>
@@ -42,10 +43,13 @@ const App = () => (
       <h2>Sarah and Micke</h2>
       <Image src="kiwiandkorv.png" style={{ height: '4em' }} />
       <p>
-        We can’t wait to celebrate our marriage with you!<br />
-        Guaranteed yummy food, booze and bad dance moves :)<br />
+        We can’t wait to celebrate our marriage with you!
         <br />
-        xx<br />
+        Guaranteed yummy food, booze and bad dance moves :)
+        <br />
+        <br />
+        xx
+        <br />
         the kiwi & the korv
       </p>
       <Image
@@ -73,7 +77,8 @@ const App = () => (
           >
             venue
           </a>{' '}
-          perched on a hillside. <br />Half an hour south of Auckland.
+          perched on a hillside. <br />
+          Half an hour south of Auckland.
         </p>
       </div>
 
@@ -117,14 +122,16 @@ const App = () => (
           The car parking at Boomrock is limited to suppliers and staff. Please
           do not drive to the venue. Instead, please taxi or drive to one of the
           bus pick up points.
-          <br /> <br />Two buses will leave{' '}
+          <br /> <br />
+          Two buses will leave{' '}
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.google.com/maps/place/54+Hobson+St,+Auckland,+1010,+Nya+Zeeland/@-36.846926,174.7449157,14z/data=!4m5!3m4!1s0x6d0d47f08705f039:0xd3689b7d298dc9b4!8m2!3d-36.8469303!4d174.7624252"
           >
             54 Hobson St
-          </a>, Auckland Central at 2pm. They then stop at{' '}
+          </a>
+          , Auckland Central at 2pm. They then stop at{' '}
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -134,9 +141,9 @@ const App = () => (
           </a>{' '}
           (more specific location tbc). Returning busses to Greenlane and Hobson
           St will depart the venue at 10pm and midnight. Due to it’s remote
-          location, any taxis must be prebooked. <br /> <br />Please include any
-          special travel requirements in your R.S.V.P and we can make the best
-          plan together.
+          location, any taxis must be prebooked. <br /> <br />
+          Please include any special travel requirements in your R.S.V.P and we
+          can make the best plan together.
           <br />
         </p>
       </div>
@@ -180,19 +187,35 @@ const App = () => (
           from abroad.
         </p>
       </div>
+
+      <div>
+        <h3>Speeches</h3>
+        <p>
+          We're gonna this the Swedish way, meaning anyone who wants to talk
+          can. Contact{' '}
+          <a href="mailto:anna@otlinders.com" rel="noopener noreferrer">
+            Anna Cottle
+          </a>{' '}
+          for more information.
+        </p>
+      </div>
     </section>
 
     <section>
       <h2>
-        R<span style={{ fontFamily: 'Futura', color: 'red', fontSize: '1em' }}>
-          .
-        </span>S
+        R
         <span style={{ fontFamily: 'Futura', color: 'red', fontSize: '1em' }}>
           .
-        </span>V
+        </span>
+        S
         <span style={{ fontFamily: 'Futura', color: 'red', fontSize: '1em' }}>
           .
-        </span>P
+        </span>
+        V
+        <span style={{ fontFamily: 'Futura', color: 'red', fontSize: '1em' }}>
+          .
+        </span>
+        P
         <span style={{ fontFamily: 'Futura', color: 'red', fontSize: '1em' }}>
           .
         </span>
@@ -201,11 +224,16 @@ const App = () => (
       <p>
         By November 1st to{' '}
         <a href="mailto:rsvp@otlinders.com">rsvp@otlinders.com</a>
-        <br />We need four pieces of information from you.
-        <br />1. Are you coming?
-        <br />2. Which bus pickup point suits you?
-        <br />3. Do you have any special food requests?
-        <br />4. Do you want to go home around 10pm or midnight?
+        <br />
+        We need four pieces of information from you.
+        <br />
+        1. Are you coming?
+        <br />
+        2. Which bus pickup point suits you?
+        <br />
+        3. Do you have any special food requests?
+        <br />
+        4. Do you want to go home around 10pm or midnight?
       </p>
     </section>
 
@@ -226,15 +254,16 @@ const App = () => (
         >
           Mission Bay Pavillion
         </a>{' '}
-        <br /> Drop in between 12:00pm & 4:00pm and enjoy brunch by the beach.<br />{' '}
-        We've reserved some tables.<br /> Bring your wallet and togs/badbyxor to
-        this one :)
+        <br /> Drop in between 12:00pm & 4:00pm and enjoy brunch by the beach.
+        <br /> We've reserved some tables.
+        <br /> Bring your wallet and togs/badbyxor to this one :)
       </p>
     </section>
 
     <section>
       <h2>
-        Bra att veta om<br /> Nya Zeeland
+        Bra att veta om
+        <br /> Nya Zeeland
       </h2>
       <Image src="kiwi2.png" style={{ height: '20vh' }} />
       <p>
@@ -258,21 +287,25 @@ const App = () => (
         <br />
         <br />
         <strong>THE JETLAG</strong>
-        <br /> Can mess you around a bit.<br /> Stay up as long as possible on
-        the first day and you’ll be right after a few sleeps!
+        <br /> Can mess you around a bit.
+        <br /> Stay up as long as possible on the first day and you’ll be right
+        after a few sleeps!
         <br />
         <br />
         <strong>THE FOOD</strong>
         <br /> Oh there is so much to savour...
         <br /> Flat white coffees and fish n chips...
-        <br />The fresh fruit, the fresh seafood...
+        <br />
+        The fresh fruit, the fresh seafood...
         <br /> The coconut yoghurt section in the supermarket offers more than
         your average fil aisle.
-        <br />The affordable and readily available Asian food in central
-        Auckland.
-        <br />And don’t forget to pair some kiwi wines with your meal.
         <br />
-        <br />Smaklig måltid!
+        The affordable and readily available Asian food in central Auckland.
+        <br />
+        And don’t forget to pair some kiwi wines with your meal.
+        <br />
+        <br />
+        Smaklig måltid!
       </p>
     </section>
 
@@ -291,10 +324,10 @@ const App = () => (
         <br />
         <br />
         <strong>
-          IKEA MEATBALLS EATEN EVERY DAY<br /> AROUND THE WORLD
+          IKEA MEATBALLS EATEN EVERY DAY
+          <br /> AROUND THE WORLD
         </strong>
-        <br />
-        2 million
+        <br />2 million
         <br />
         <br />
         ABBA, Volvo, Ikea, H&M, Spotify, Skype, Zlatan Ibrahimovic, Socialism:{' '}
