@@ -191,7 +191,7 @@ const App = () => (
       <div>
         <h3>Speeches</h3>
         <p>
-          We're gonna this the Swedish way, meaning anyone who wants to talk
+          We're gonna do this the Swedish way, meaning anyone who wants to talk
           can. Contact{' '}
           <a href="mailto:anna@otlinders.com" rel="noopener noreferrer">
             Anna Cottle
