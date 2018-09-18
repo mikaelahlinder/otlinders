@@ -248,15 +248,15 @@ const App = () => (
       />
       <p>
         <a
-          href="https://www.google.com/maps/place/44+Mission+Bay+Pavilion/@-36.8473136,174.7946299,13z/data=!4m5!3m4!1s0x6d0d49dbe101286b:0xe8ae375eeb3c5e6!8m2!3d-36.8473136!4d174.8296488"
+          href="https://www.google.com/maps/place/ampersand+eatery/@-36.8630569,174.8075956,17z/data=!3m1!4b1!4m5!3m4!1s0x6d0d484a1b580747:0x10b300ff016fdaff!8m2!3d-36.8630569!4d174.8097843"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Mission Bay Pavillion
+          Ampersand Eatery
         </a>{' '}
-        <br /> Drop in between 12:00pm & 4:00pm and enjoy brunch by the beach.
+        <br /> Drop in between 12:00pm & 4:00pm and enjoy brunch.
         <br /> We've reserved some tables.
-        <br /> Bring your wallet and togs/badbyxor to this one :)
+        <br /> Bring your wallet to this one :)
       </p>
     </section>
 
