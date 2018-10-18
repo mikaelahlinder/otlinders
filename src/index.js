@@ -106,7 +106,7 @@ const App = () => (
       <div>
         <h3>Key Times</h3>
         <p>
-          The ceremony starts at 3.30pm &<br /> the dancing finishes at
+          The ceremony starts at 2.30pm &<br /> the dancing finishes at
           midnight!
         </p>
       </div>
