@@ -152,9 +152,11 @@ const App = () => (
         <h3>Gifts</h3>
         <p>
           We are blessed with not needing much and Sarah collects too much stuff
-          as it is! But we will have a minimal registry set up later in the year
-          for items we need. Otherwise please give the gift of your presence and
-          write us a nice card.
+          as it is!
+          <br /> <br /> We are planning to build a new room in our townhouse;
+          for you to stay and maybe eventually for a sibling to Lou. If you
+          would like to contribute to our Fifth Room Family Fund, we would be so
+          grateful!
         </p>
       </div>
 
