@@ -140,7 +140,7 @@ const App = () => (
             Greenlane
           </a>{' '}
           (more specific location tbc). Returning busses to Greenlane and Hobson
-          St will depart the venue at 10pm and midnight. Due to it’s remote
+          St will depart the venue at 10.30pm and midnight. Due to it’s remote
           location, any taxis must be prebooked. <br /> <br />
           Please include any special travel requirements in your R.S.V.P and we
           can make the best plan together.
