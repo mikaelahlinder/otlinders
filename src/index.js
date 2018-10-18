@@ -131,7 +131,7 @@ const App = () => (
           >
             54 Hobson St
           </a>
-          , Auckland Central at 2pm. They then stop at{' '}
+          , Auckland Central at 1pm. They then stop at{' '}
           <a
             target="_blank"
             rel="noopener noreferrer"
