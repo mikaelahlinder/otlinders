@@ -135,9 +135,9 @@ const App = () => (
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.google.com/maps/place/127+Urban+Route+9,+Greenlane,+Auckland+1051,+Nya+Zeeland/@-36.8894448,174.7610509,13z/data=!4m5!3m4!1s0x6d0d48f37ac0a6b5:0xdf09f403cbd3ba3!8m2!3d-36.8894491!4d174.7960698"
+            href="https://www.google.com/maps/place/Opp+205+Great+South+Rd/@-36.8899412,174.79386,19z/data=!4m13!1m7!3m6!1s0x6d0d48f37ac0a6b5:0xdf09f403cbd3ba3!2s127+Urban+Route+9,+Greenlane,+Auckland+1051,+Nya+Zeeland!3b1!8m2!3d-36.8894491!4d174.7960698!3m4!1s0x6d0d488cc9a3215f:0x87c1f56a9a6748fd!8m2!3d-36.8901451!4d174.7937901"
           >
-            Greenlane
+            Greenlane{' '}
           </a>
           coach stop outside Countdown at 1pm. Returning busses to Greenlane and
           Hobson St will depart the venue at 10.30pm and midnight. Due to it’s
