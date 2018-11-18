@@ -138,10 +138,10 @@ const App = () => (
             href="https://www.google.com/maps/place/127+Urban+Route+9,+Greenlane,+Auckland+1051,+Nya+Zeeland/@-36.8894448,174.7610509,13z/data=!4m5!3m4!1s0x6d0d48f37ac0a6b5:0xdf09f403cbd3ba3!8m2!3d-36.8894491!4d174.7960698"
           >
             Greenlane
-          </a>{' '}
-          , coach stop outside Countdown at 1pm. Returning busses to Greenlane
-          and Hobson St will depart the venue at 10.30pm and midnight. Due to
-          it’s remote location, any taxis must be prebooked. <br /> <br />
+          </a>
+          coach stop outside Countdown at 1pm. Returning busses to Greenlane and
+          Hobson St will depart the venue at 10.30pm and midnight. Due to it’s
+          remote location, any taxis must be prebooked. <br /> <br />
           Please include any special travel requirements in your R.S.V.P and we
           can make the best plan together.
           <br />
