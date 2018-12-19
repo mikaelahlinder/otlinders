@@ -123,6 +123,9 @@ const App = () => (
           do not drive to the venue. Instead, please taxi or drive to one of the
           bus pick up points.
           <br /> <br />
+          <strong>
+            <i>New information:</i>
+          </strong>{' '}
           The buses will leave{' '}
           <a
             target="_blank"
@@ -234,8 +237,6 @@ const App = () => (
         2. Which bus pickup point suits you?
         <br />
         3. Do you have any special food requests?
-        <br />
-        4. Do you want to go home around 10pm or midnight?
       </p>
     </section>
 
