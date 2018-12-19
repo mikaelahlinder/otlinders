@@ -123,7 +123,7 @@ const App = () => (
           do not drive to the venue. Instead, please taxi or drive to one of the
           bus pick up points.
           <br /> <br />
-          One bus will leave{' '}
+          The buses will leave{' '}
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -131,7 +131,7 @@ const App = () => (
           >
             54 Hobson St
           </a>
-          , opposite the Heritage Hotel at 1pm. Another bus will leave from{' '}
+          , opposite the Heritage Hotel at 1pm. Second stop will be at{' '}
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -139,9 +139,9 @@ const App = () => (
           >
             Greenlane{' '}
           </a>
-          coach stop outside Countdown at 1pm. Returning busses to Greenlane and
-          Hobson St will depart the venue at 10.30pm and midnight. Due to it’s
-          remote location, any taxis must be prebooked. <br /> <br />
+          coach stop outside Countdown soon after. Returning buses to Greenlane
+          and Hobson St will depart the venue at midnight. Due to it’s remote
+          location, any taxis must be prebooked. <br /> <br />
           Please include any special travel requirements in your R.S.V.P and we
           can make the best plan together.
           <br />
