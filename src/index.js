@@ -1,7 +1,6 @@
 import React from 'react'
 import { render } from 'react-snapshot'
 import intro from './img/intro.jpg'
-import red from './img/red.png'
 import landscape from './img/landscape.png'
 import floating from './img/floating.png'
 
@@ -343,16 +342,6 @@ const App = () => (
 
     <section>
       <Image src="birds.png" style={{ width: '80%' }} />
-      <h4
-        style={{
-          marginTop: '50px',
-          padding: '50px',
-          background: `url(${red}) no-repeat center center`,
-          backgroundSize: 'contain'
-        }}
-      >
-        Please check here for final details in December
-      </h4>
       <h2>See you there </h2>
       <Image
         src="heart.png"
