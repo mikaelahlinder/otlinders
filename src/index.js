@@ -141,9 +141,10 @@ const App = () => (
           >
             Greenlane{' '}
           </a>
-          coach stop outside Countdown soon after. Returning buses to Greenlane
-          and Hobson St will depart the venue at midnight. Due to it’s remote
-          location, any taxis must be prebooked. <br /> <br />
+          coach stop outside Countdown (Great South Rd) soon after. Returning
+          buses to Greenlane and Hobson St will depart the venue at midnight.
+          Due to it’s remote location, any taxis must be prebooked. <br />{' '}
+          <br />
           Please include any special travel requirements in your R.S.V.P and we
           can make the best plan together.
           <br />
