@@ -122,9 +122,6 @@ const App = () => (
           do not drive to the venue. Instead, please taxi or drive to one of the
           bus pick up points.
           <br /> <br />
-          <strong>
-            <i>New information:</i>
-          </strong>{' '}
           The buses will leave{' '}
           <a
             target="_blank"
