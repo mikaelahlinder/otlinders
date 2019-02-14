@@ -157,6 +157,8 @@ const App = () => (
           for you to stay and maybe eventually for a sibling to Lou. If you
           would like to contribute to our Fifth Room Family Fund, we would be so
           grateful!
+          <br /> <br />
+          Our wishing well account number is 12-3030-0455130-00.
         </p>
       </div>
 
