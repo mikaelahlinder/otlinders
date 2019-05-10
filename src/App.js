@@ -1,9 +1,8 @@
 import React from 'react'
+import Image from './Image'
 import intro from './img/intro.jpg'
 import landscape from './img/landscape.png'
 import floating from './img/floating.png'
-
-const Image = ({ src, ...rest }) => <img src={require(`./img/${src}`)} {...rest} alt='' />
 
 export default () => (
   <div>
