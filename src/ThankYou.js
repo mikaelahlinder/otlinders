@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
 import Gallery from 'react-photo-gallery'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
+import { LazyLoadImage, trackWindowScroll } from 'react-lazy-load-image-component'
 import Image from './Image'
 import Images from './data'
 
-export default () => (
+export default trackWindowScroll(({ scrollPosition }) => (
   <Fragment>
     <Gallery
       photos={Images}
@@ -12,6 +12,8 @@ export default () => (
       renderImage={({ photo, margin, top, left }) => (
         <LazyLoadImage
           {...photo}
+          threshold={400}
+          scrollPosition={scrollPosition}
           src={'https://raw.githubusercontent.com/mikaelahlinder/otlinders/master/public' + photo.src}
           style={{
             display: 'block',
@@ -34,4 +36,4 @@ export default () => (
       />
     </div>
   </Fragment>
-)
+))
