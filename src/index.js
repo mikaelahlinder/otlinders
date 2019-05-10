@@ -3,6 +3,6 @@ import { render } from 'react-snapshot'
 import App from './App'
 import ThankYou from './ThankYou'
 
-const Comp = /thank-you/.test(window.location) ? ThankYou : App
+const Comp = /thankyou/.test(window.location) ? ThankYou : App
 
 render(<Comp />, document.getElementById('root'))

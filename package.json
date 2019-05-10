@@ -17,7 +17,7 @@
   },
   "reactSnapshot": {
     "include": [
-      "/thank-you"
+      "/thankyou"
     ]
   },
   "scripts": {
