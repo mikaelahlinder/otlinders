@@ -10,7 +10,7 @@ export default () => (
     renderImage={({ photo, margin, top, left }) => (
       <LazyLoadImage
         {...photo}
-        effect='opacity'
+        src={'https://raw.githubusercontent.com/mikaelahlinder/otlinders/master/public' + photo.src}
         style={{
           display: 'block',
           position: 'absolute',
