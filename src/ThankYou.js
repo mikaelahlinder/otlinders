@@ -7,7 +7,7 @@ import Images from './data'
 
 const Video = styled.div`
   width: 100vw;
-  height: ${() => document.documentElement.clientWidth * 0.41 + 'px'};
+  height: calc(100vw * 0.41);
   position: relative;
   iframe {
     position: absolute;
