@@ -22,7 +22,7 @@ export default trackWindowScroll(({ scrollPosition }) => (
   <Fragment>
     <Video>
       <iframe
-        src='https://player.vimeo.com/video/316364942?autoplay=1&loop=1&background=1'
+        src='https://player.vimeo.com/video/316364942?autoplay=1&loop=1'
         width='100%'
         height='100%'
         title='Sarah & Micke'
