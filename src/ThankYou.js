@@ -1,11 +1,35 @@
 import React, { Fragment } from 'react'
+import styled from '@emotion/styled'
 import Gallery from 'react-photo-gallery'
 import { LazyLoadImage, trackWindowScroll } from 'react-lazy-load-image-component'
 import Image from './Image'
 import Images from './data'
 
+const Video = styled.div`
+  width: 100vw;
+  height: ${() => document.documentElement.clientWidth * 0.41 + 'px'};
+  position: relative;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+`
+
 export default trackWindowScroll(({ scrollPosition }) => (
   <Fragment>
+    <Video>
+      <iframe
+        src='https://player.vimeo.com/video/316364942?autoplay=1&loop=1&background=1'
+        width='100%'
+        height='100%'
+        title='Sarah & Micke'
+        frameBorder='0'
+        allow='autoplay; fullscreen'
+      />
+    </Video>
     <Gallery
       photos={Images}
       direction='column'
